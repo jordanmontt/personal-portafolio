@@ -281,6 +281,57 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d. Publications Section
+/* ------------------------------------------------------------------ */
+
+#publications {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#publications a, #publications a:visited  { color: #11ABB0; }
+#publications a:hover, #publications a:focus { color: #313131; }
+
+#publications h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#publications h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#publications h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#publications .header-col { padding-top: 9px; }
+#publications .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#publications .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#publications .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#publications .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -791,11 +842,13 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   /* color: #636363; */
+   color:#EBEEEE;
+   text-align: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #EBEEEE; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -813,7 +866,7 @@ call-to-action .button {
 	font-size: 72px;
    line-height: 72px;
    text-align: left;
-   float: left;
+   /*float: left;*/
    color: #ebeeee;
 }
 
@@ -1003,4 +1056,30 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+/* custom classes */
+
+
+.custom-section-footer{
+	margin-bottom: 48px;
+	 
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+}
+
+/* social links */
+.custom-section-footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+.custom-section-footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+}
+
+.custom-section-footer .social-links li:first-child { margin-left: 0; }
 
